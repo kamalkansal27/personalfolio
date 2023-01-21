@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Merriweather+Sans:wght@300&family=Merriweather:wght@300&family=Nanum+Pen+Script&family=Ubuntu&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.sidebar {
+  background-color: #678983;
+  width: 200px;
+  height: 100vh;
+  font-family: "Fira Sans", sans-serif;
+  padding: 28px;
+}
+.sidebar h1{
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 60px;
+}
+.main-content {
+  background-color: #F0E9D2;
+  width: 100vw;
+  font-family: "Merriweather", serif;
+  height: 100vh;
+}
+.container {
+  display: flex;
+}
+.sidebar nav {
+  padding: 51px;
+}
+.sidebar nav li {
+  list-style: none;
+  font-size: larger;
+  padding: 20px 0;  
+}
+.sidebar nav li a {
+  text-decoration: none;
+  color: black;
+}
+.contactform h1{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.contactform{
+    padding: 0 70px;
+    padding-top: 90px;
+}
+.contactform form div{
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+}
+#emailHelp{
+    font-weight: bolder;
+    font-size:x-small;
+    color: #678983;
+}
+#clientEmail{
+    width: 40vw;
+    border-radius: 7px;
+    padding: 4px;
+    margin: 5px 0;
+}
+#clientPhone{
+    width: 30vw;
+    border-radius: 7px;
+    padding: 4px;
+    margin: 5px 0;
+}
+#isclient{
+    margin-right: 10px;
+}
+#clientdesc{
+    width: 60vw;
+    height: 20vh;
+    border-radius: 7px;
+    padding: 4px;
+    margin: 5px 0;
+}
+button{
+    margin: 3px 0;
+    padding: 7px 10px;
+    border-radius: 7px;
+    color: white;
+    background-color: #393E46;
+}
+
+button:hover{
+    background-color:#678983;
+    cursor: pointer;
+} 
+
+.sidebargo{
+  transform: translate(-250px, 0px);
+  position: absolute;
+}
+
+.cross{
+  margin-left:180px;
+}
+
+.hamburger{
+  position:absolute;
+  cursor: pointer;
+  top: 15px;
+  left: 18px;
+}
+@media (max-width : 900px) {
+  
+  .sidebar{
+    position: absolute;
+  }
+  .pic{
+    display: none;
+  }
+  .contactform{
+    padding-top: 70px;
+  }
+  
+}

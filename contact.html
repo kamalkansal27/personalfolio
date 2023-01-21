@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kamal Kansal</title>
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar sidebargo">
+      <h1>Hello!</h1>
+      <nav>
+        <ul>
+          <li><a href = "/">Home</a></li>
+          <li><a href = "/intro.html">Intro</a></li>
+          <li><a href = "/contact.html">Contact</a></li>
+          <li><a href = "/blog.html">Blog</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="main-content">
+      <div class="hamburger">
+        <i class="fa-solid fa-2x fa-user ham"></i>
+        <i class="fa-sharp fa-2x fa-solid fa-xmark cross"></i>
+      </div>
+      <div class="contactform">
+        <h1>Contact me for Work/ General Queries</h1>
+        <form>
+          <div class="mb-3">
+            <label for="clientEmail" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="clientEmail" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">I'll never share your email and Phone with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="clientPhone" class="form-label">Phone</label>
+            <input type="tel" class="form-control" id="clientPhone">
+          </div>
+          <div class="mb-3">
+            <label for="clientdesc" class="form-label">Share your thoughts</label>
+            <textarea type="" class="form-control" id="clientdesc" aria-describedby="emailHelp"></textarea>
+          </div>
+          <div class="mb-3 form-check" style="flex-direction: row;">
+            <input type="checkbox" class="form-check-input" id="isclient">
+            <label class="form-check-label" for="isclient">Want to work with me</label>
+          </div>
+          <a href="mailto:kamalkansal53@gmail.com"><button type="submit"  class="btn btn-primary">Submit</button></a>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="https://kit.fontawesome.com/836d61a9e4.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>

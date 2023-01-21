@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Merriweather+Sans:wght@300&family=Merriweather:wght@300&family=Nanum+Pen+Script&family=Ubuntu&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  
+
+}
+.sidebar {
+  background-color: #678983;
+  width: 200px;
+  height: 100vh;
+  font-family: "Fira Sans", sans-serif;
+  padding: 28px;
+}
+.sidebar h1{
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 60px;
+}
+.main-content {
+  background-color: #F0E9D2;
+  width: 100vw;
+  font-family: "Merriweather", serif;
+  height: 100vh;
+}
+.container {
+  display: flex;
+}
+.sidebar nav {
+  padding: 51px;
+}
+.sidebar nav li {
+  list-style: none;
+  font-size: larger;
+  padding: 20px 0;  
+}
+.sidebar nav li a {
+  text-decoration: none;
+  color: black;
+}
+.blogcontainer{
+  margin: 100px;
+}
+.bloghead{
+  padding-bottom: 15px;
+}
+.blogitem{
+  padding: 10px 0;
+}
+.blogitem h3{
+  padding-bottom: 7px;
+}
+button{
+  margin: 10px 0;
+  padding: 7px 10px;
+  border-radius: 7px;
+  color: white;
+  background-color: #393E46;
+}
+
+button:hover{
+  background-color:#678983;
+  cursor: pointer;
+} 
+.sidebargo{
+  transform: translate(-260px, 0px);
+  position: absolute;
+}
+
+.cross{
+  margin-left:180px;
+}
+
+.hamburger{
+  position:absolute;
+  cursor: pointer;
+  top: 15px;
+  left: 18px;
+}
+@media (max-width : 900px) {
+  
+  .sidebar{
+    position: absolute;
+  }
+  .pic{
+    display: none;
+  }
+  .blogcontainer{
+    margin: 20px;
+    margin-top: 70px;
+  }
+  *{
+    font-size: 12.2px;
+  }
+  
+}

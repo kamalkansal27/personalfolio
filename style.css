@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Merriweather+Sans:wght@300&family=Merriweather:wght@300&family=Nanum+Pen+Script&family=Ubuntu&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.sidebar {
+  
+  background-color: #678983;
+  height: 100vh;
+  font-family: "Fira Sans", sans-serif;
+  padding: 30px;
+
+}
+.sidebar h1{
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 60px;
+}
+.main-content {
+  background-color: #F0E9D2;
+  width: 100vw;
+  font-family: "Merriweather", serif;
+  height: 100vh;
+}
+.container {
+  display: flex;
+}
+.sidebar nav {
+  padding: 51px;
+}
+.sidebar nav li {
+  list-style: none;
+  font-size: larger;
+  padding: 20px 0;  
+}
+.sidebar nav li a {
+  text-decoration: none;
+  color: black;
+}
+.infocontainer {
+  background-color: #E6DDC4;
+  width: 60vw;
+  height: 53vh;
+  margin: 110px auto;
+  display: flex;
+  justify-content: space-around;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px 0;
+}
+/* .info div{
+  padding: 4px 0;
+} */
+.info button{
+  margin: 3px 0;
+  padding: 10px;
+  border-radius: 7px;
+  color: white;
+  background-color: #393E46;
+  flex-direction: row;
+}
+.pic img{
+  border-radius: 200px;
+  padding: 17px 0 0 0;
+  height: 45vh;
+}
+.name{
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+.hello{
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 25px;
+}
+
+.about{
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+button:hover{
+  background-color:#678983;
+  cursor: pointer;
+}
+.info a{
+  display: contents;
+}
+.sidebargo{
+  transform: translate(-250px, 0px);
+  position: absolute;
+}
+
+.cross{
+  margin-left:180px;
+}
+
+.hamburger{
+  position:absolute;
+  cursor: pointer;
+  top: 15px;
+  left: 18px;
+}
+@media (max-width : 900px) {
+  
+  .sidebar{
+    position: absolute;
+  }
+  .pic{
+    display: none;
+  }
+  .infocontainer{
+    width: 90vw;
+  }
+  
+  
+}
